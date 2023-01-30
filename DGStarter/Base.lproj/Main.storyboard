@@ -52,7 +52,7 @@
                                                     <outletCollection property="gestureRecognizers" destination="ch4-ey-r1h" appends="YES" id="BVq-xA-Gpj"/>
                                                 </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxW-Qu-YJX" userLabel="Second View">
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxW-Qu-YJX" userLabel="Second View">
                                                 <rect key="frame" x="185.66666666666663" y="0.0" width="175.33333333333337" height="336.66666666666669"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5Gt-cU-B1w">
@@ -87,7 +87,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TGm-7B-K4m" userLabel="Second Horizontal Stack View">
                                         <rect key="frame" x="0.0" y="346.66666666666674" width="361" height="336.33333333333326"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDZ-F6-5TZ" userLabel="Fourth View">
+                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDZ-F6-5TZ" userLabel="Fourth View">
                                                 <rect key="frame" x="0.0" y="0.0" width="175.66666666666666" height="336.33333333333331"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KpZ-iy-j5w">
@@ -117,7 +117,7 @@
                                                     <outletCollection property="gestureRecognizers" destination="EKv-2E-pdp" appends="YES" id="mop-jC-fTy"/>
                                                 </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JhV-GB-xgo" userLabel="Third View">
+                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JhV-GB-xgo" userLabel="Third View">
                                                 <rect key="frame" x="185.66666666666663" y="0.0" width="175.33333333333337" height="336.33333333333331"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hqx-5c-iWt">
