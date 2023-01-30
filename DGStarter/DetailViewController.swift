@@ -10,7 +10,17 @@ import UIKit
 class DetailViewController: UIViewController {
     // Property
     var dinosaur: Dinosaur?
-
+    
+    @IBOutlet weak var dinoImage: UIImageView!
+    @IBOutlet weak var dinoName: UILabel!
+    @IBOutlet weak var dinoType: UILabel!
+    @IBOutlet weak var dinoWeight: UILabel!
+    @IBOutlet weak var dinoHeight: UILabel!
+    @IBOutlet weak var dietLabel: UILabel!
+    @IBOutlet weak var eraLabel: UILabel!
+    @IBOutlet weak var regionLabel: UILabel!
+    @IBOutlet weak var speedLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +28,16 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         if let dinosaur = dinosaur {
             print(dinosaur.name)
+            // Configure the dinosaur image and dynamic labels
+            dinoImage.image = dinosaur.image
+            dinoName.text = dinosaur.name
+            dinoType.text = dinosaur.type
+            dinoWeight.text = String(dinosaur.weight) + " KG"
+            dinoHeight.text = String(dinosaur.height) + " M"
+            dietLabel.text = String(dinosaur.diet)
+            eraLabel.text = String(dinosaur.era)
+            regionLabel.text = String(dinosaur.region)
+            speedLabel.text = String(dinosaur.speed) + " mph"
         }
     }
     
